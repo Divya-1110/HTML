@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Reservation from</title>
+    </head>
+    <body>
+        <h1 align="left">Travel Reservation Form</h1>
+    
+        <h3>*denotes mandotory</h3>
+  <form name="regform" method="post" action="success.html">
+       
+        <!--full name-->
+           <b>Full name*</b><br>
+            <input type="text" name="Student_Name" maxlength="30" placeholder="FirstName LastName"></input><br>
+
+        <!--Email-->  
+            <b>Email address* :</b><br>       
+            <input type="email" name="email" maxlength="30" placeholder="EMAIL_ADDRESS"></input><br>
+         
+        <!--place-->
+            <b>Select Tour Package* :</b><br>
+                <select name="places">
+                    <option value="Goa">Java</option>
+                    <option value="Trivandrum">Ruby</option>
+                    <option value="Chennai">Python</option>
+                    <option value="Hyderabad">C#</option>
+                </select><br>
+
+        <!--Arrival Date-->
+           <b>Arrival date* :</b><br>
+            <input type="date" name="dob" placeholder="m/d/y"></input><br>
+           
+        <!--NO.Of.Persons-->
+            <b>Number of persons* :</b><br>
+            <input type="text" name="no.of.persons" placeholder="UNKNOWN_TYPE"></input><br>
+        
+        <!--Availability-->
+            <b>What would you want to avail?*<br>
+            Boarding
+            <input type="checkbox" name="availability" value="Boarding"></input><br>
+            Fooding
+            <input type="checkbox" name="availability" value="Fooding"></input> <br> 
+            Sight seeing    
+            <input type="checkbox" name="availability" value="Sight seeing"></input></b><br>
+
+        <!--Coupon Code-->
+            <b>Discount Coupon code :</b><br>
+            <input type="text" name="coupon code" placeholder="UNKNOWN_TYPE"></input><br>
+
+        <!--Terma And Conditions-->
+            <b>Terms and condition<br>
+            <input type="radio" name="T&C" value="Iagree">Iagree</input>
+            <input type="radio" name="T&C" value="I disagree">I disagree </input></b><br>
+
+        <input type="submit" value="Complete reservation">
+           
+  </form>
+ 
+  </body>
+</html>
